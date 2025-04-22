@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>TODO List</h1>
+  <input id="newTask" type="text" placeholder="Add new task...">
+  <button onclick="addTask()" class="btn">Add</button>
+  <br><br>
+  <input id="search" type="text" placeholder="Search tasks..." oninput="renderTasks()">
+  <br><br>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>TODO Description</th>
+        <th>User ID</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="todoBody"></tbody>
+  </table>
+
+  <p id="totalCount"></p>
+
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body { 
+font-family: Arial; text-align: center; 
+background-color: #f4f4f4;
+margin: 0; padding: 20px;   
+color: #333;
+}
+
+table { 
+    margin: auto; 
+    width: 80%; 
+    border-collapse: collapse; 
+}
+th , td{
+    padding: 10px; 
+    border: 1px solid #ddd; 
+}
+tr:nth-child(2n){
+    background-color: #aaaaaa;
+}
+input[type="text"] { 
+    padding: 5px;
+    width: 300px; 
+}
+.btn { 
+    padding: 5px 10px;
+    cursor: pointer; 
+}
+.btn-delete {
+    background-color: red;
+    color: white; 
+    border: none; 
+}
+.btn-done { 
+    background-color: green;
+    color: white; 
+    border: none; 
+}
+.completed {
+    text-decoration: line-through;
+    color: gray; 
+}
