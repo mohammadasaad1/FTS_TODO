@@ -1,5 +1,5 @@
 # 📝 Todo List – Foothill Technology Solution
-
+<!--  -->
 A clean, and interactive Todo List web application developed. This app enables users to manage tasks efficiently with features like task creation, completion tracking, deletion, and search functionality. Data persistence is achieved through local storage.
 
 ## 🚀 Features
